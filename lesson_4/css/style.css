@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+@font-face {
+    font-family: 'Baradig';
+    src: url('../fonts/BaradigRegular.woff2') format('woff2'), url('../fonts/BaradigRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Baradig';
+    src: url('../fonts/BaradigBold.woff2') format('woff2'), url('../fonts/BaradigBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro-Bold.woff2') format('woff2'), url('../fonts/GothamPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gotham Pro';
+    src: url('../fonts/GothamPro.woff2') format('woff2'), url('../fonts/GothamPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* ------------------- */
+
+.header__title {
+    font-family: "Gotham Pro";
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.Baradig{
+    font-family: "Baradig";
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.header__title_2 {
+    font-family: "Baradig";
+    font-size: 30px;
+}
+
+.Aboreto{
+    font-family: "Aboreto";
+    font-size: 35px;
+    text-align: center;
+}
+
+.main__text{
+    font-family: "Aboreto";
+    font-size: 30px;
+    line-height: 1.5;
+    text-align: justify;
+    font-style: oblique;
+
+}
+
+.main__text_shadow {
+    font-family: "Gotham Pro";
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgb(153, 51, 138);
+    font-size: 30px;
+    text-align: right;
+}
+
+.link {
+    font-family: "Gotham Pro";
+    font-size: 40px;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+
