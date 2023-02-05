@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Poppins:wght@300;700&display=swap');
+
+/* -------------------- */
+
+
+main{
+    padding: 25px 0 25px 0 ;
+}
+
+.first-block {
+    margin: 0 auto;
+    max-width: 816px;
+    font-size: 0;
+}
+
+.first-block__title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #212529;
+
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.first-block__text {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    color: #6C757D;
+}
+
+.paragraph-1 {
+    margin-bottom: 25px;
+}
+
+.paragraph-2 {
+    margin-bottom: 25px;
+}
+
+.paragraph-3 {
+    margin-bottom: 80px;
+}
+
+.desert-img {
+    max-width: 1240px;
+    margin: 0 auto 80px;
+}
+
+.second-block {
+    margin: 0 auto 80px;
+    max-width: 816px;
+}
+
+.second-block__title {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+
+    max-width: 605px;
+    margin-bottom: 40px;
+}
+
+.second-block__text {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+    color: #6C757D;
+
+}
+
+.paragraph-11 {
+    margin-bottom: 25px;
+}
+
+.paragraph-22 {
+}
+
+.img-group{
+    font-size: 0;
+    margin: 0 auto 80px;
+    max-width: 1240px;
+}
+
+.girl-img {
+    display: inline-block;
+    margin-right: 30px;
+    max-width: 605px;
+}
+
+.forest-img {
+    display: inline-block;
+    max-width: 605px;
+}
+
+
+.third-block {
+    margin: 0 auto;
+    max-width: 816px;
+}
+
+.third-block__text {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 25px;
+
+    color: #6C757D;
+}
