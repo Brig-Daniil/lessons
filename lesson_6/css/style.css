@@ -1,0 +1,195 @@
+
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+textarea,
+button,
+input {
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+button {
+	cursor: pointer;
+	background-color: inherit;
+}
+
+/* ------------- */
+
+body{
+	font-family: 'Poppins';
+	font-weight: 300;
+	font-size: 14px;
+	color: #6C757D;
+}
+
+[class*="__container"]{
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* -------------- */
+
+.article {
+	padding-top: 80px;
+	/* padding-bottom: 80px; */
+}
+
+.article__container {
+
+}
+
+.article__text-block {
+	max-width: 816px;
+	margin: 0 auto 80px;
+}
+
+.article__text-block p{
+	line-height: 1.78;
+	margin-bottom: 30px;
+}
+
+.article__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	margin-bottom: 40px;
+	max-width: 605px;
+}
+
+.article__image{
+	max-width: 100%;
+	margin-bottom: 80px;
+}
+
+.article__images {
+	font-size: 0;
+}
+
+.article__image-1 {
+	margin-right: 30px;
+}
+
+.article__image-2 {
+
+}
+
+/* --------------- */
+
+.background {
+
+}
+
+.article-2__background {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.article-2 {
+	padding-bottom: 80px;
+}
+
+.article-2__container {
+
+}
+
+.article__title-2{
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.6;
+	color: #212529;
+	margin-bottom: 100px;
+	max-width: 605px;
+	margin-top: 100px;
+}
+
+.article__images-2{
+	font-size: 0;
+	margin-bottom: 100px;
+}
+
+.article-2__image-1 {
+	max-width: 100%;
+	margin-right: 30px;
+}
+
+.article-2__image-2 {
+	max-width: 100%;
+}
+
+.article__text-block-2{
+	max-width: 816px;
+	margin: 0 auto ;
+}
+
+.article__text-block-2 p{
+	line-height: 1.78;
+}
+
+.veve{
+	height: 5px;
+	background-color: rgb(255, 0, 0);
+	margin-bottom: 30px;
+}
+
+.button-practice {
+	
+	padding-bottom: 30px;
+}
+
+.button {
+	background-color: rgb(238, 255, 0);
+	border: 5px solid rgb(0, 106, 155);
+	padding: 5px;
+	border-radius: 10px;
+	/* display: inline-block; */
+	color: #000000;
+	width: 150px;
+	text-align: center;
+	font-weight: 700;
+	box-shadow: 0 5px 0 0 black;
+	margin: 0 auto;
+	position: relative;
+}
+
+.button:hover{
+	box-shadow: 0 2px 0 0 black;
+	top: 3px;
+}
+
+
+
