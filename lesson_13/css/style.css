@@ -1,0 +1,117 @@
+
+*,
+*::before,
+*::after {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+li {
+	list-style: none;
+}
+img {
+	vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+html,
+body {
+	height: 100%;
+	line-height: 1;
+}
+textarea,
+button,
+input {
+	font-weight: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-family: inherit;
+}
+button {
+	cursor: pointer;
+	background-color: inherit;
+}
+
+/*--------------------*/
+
+body{
+    padding: 100px 0;
+}
+
+.car {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    background-color: #B46060;
+    border-radius: 50px 120px 0 10px;
+    animation: car-moving 6s forwards;
+}
+
+.car__wheels {
+    position: absolute;
+    width: 100%;
+    bottom: 30px;
+}
+
+.car__wheel {
+    width: 70px;
+    height: 70px;
+    background-color: #4D4D4D;
+    border-radius: 50%;
+    outline: 5px #03001C dashed;
+    position: absolute;
+    animation: wheels-moving 6s linear forwards ;
+}
+
+.car__wheel:first-child{
+    left: 15px;
+}
+
+.car__wheel:last-child{
+    right: 15px;
+}
+
+@keyframes car-moving{
+    0%{
+        transform: translate(-150%, 0);
+    }
+    30%{
+        transform: translate(150px, 0);
+    }
+    35%{
+        transform: translate(150px, 0) rotate(0deg);
+    }
+    55%{
+        transform: translate(150px, 0) rotate(-35deg);
+    }
+    100%{
+        transform: translate(1100px, 0);
+    }
+}
+
+@keyframes wheels-moving{
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(280deg);
+    }
+    50%{
+        transform: rotate(980deg);
+    }
+    100%{
+        transform: rotate(1580deg);
+    }
+}
