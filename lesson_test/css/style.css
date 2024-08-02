@@ -1,0 +1,11 @@
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+.block__sticky {
+    padding: 30px 15px;
+    background-color: #ff3f;
+
+    position: sticky;
+    top: 0;
+}
